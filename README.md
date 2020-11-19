@@ -4,7 +4,7 @@
 * After the database is created, do the following: 
     * Comment the code and clearly explain what the script is doing when you get it. Also comment and document everything you add. 
     * Insert 5 new recipes and their ingredients, amounts, and measures into the Database.
-    * Write a query to get a list of all the Recipes from the Database.
+    * Write a query to get a list of all the Recipes from the Database.//done
     * And write a query to get all the Recipes that use a certain ingredient. 
     * Write a query to update a recipe you added.
 * Run your script so you can see your collections built and the operations run on it. 

@@ -14,8 +14,9 @@ INSERT INTO measure (name) VALUES('CUP'), ('TEASPOON'), ('TABLESPOON'), ('WHOLE'
 INSERT INTO Ingredient (name) VALUES('egg'), ('salt'), ('sugar'), ('chocolate'), ('vanilla extract'), ('flour');
 
 INSERT INTO Recipe (name, description, instructions) VALUES('Boiled Egg', 'A single boiled egg', 'Add egg to cold water. Bring water to boil. Cook.');
-
 INSERT INTO Recipe (name, description, instructions) VALUES('Chocolate Cake', 'Yummy cake', 'Add eggs, flour, chocolate to pan. Bake at 350 for 1 hour');
+INSERT INTO Recipe (name, description, instructions) VALUES('Cereal Bowl', 'Fastest breakfast', 'Add cereal to bowl, milk to bowl. eat right away');
+
 
 INSERT INTO RecipeIngredient (recipe_id, ingredient_id, measure_id, amount) VALUES (1, 1, NULL, 1);
 
