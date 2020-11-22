@@ -8,6 +8,7 @@ LEFT OUTER JOIN Measure mu on mu.id = measure_id;
 
 /*get a list of recipes */ 
 SELECT * 
+FROM Recipe 
 JOIN RecipeIngredient on Recipe.id = RecipeIngredient.recipe_id
 JOIN Ingredient on Ingredient.id = RecipeIngredient.ingredient_id
 LEFT OUTER JOIN Measure on Measure.id = measure_id;
